@@ -21,6 +21,11 @@ public class BlogPostSeeder {
 
 
 
+
+
+
+
+
     
     private final BlogPostRepository blogPostRepository;
     private final BlogTagRepository blogTagRepository;
