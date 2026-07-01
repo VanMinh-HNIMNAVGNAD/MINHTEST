@@ -8,7 +8,7 @@ import lombok.Getter;
 @Getter
 public enum ErrorCode {
     // General errors
-    KEY_INVALID(1001, "Uncategorize error", HttpStatus.BAD_REQUEST),
+    KEY_INVALID(1001, "Uncateg error", HttpStatus.BAD_REQUEST),
     UNCATEGORIZED_EXCEPTION(9999, "Uncategorize exception", HttpStatus.INTERNAL_SERVER_ERROR),
 
     // User errors (1002-1099)
