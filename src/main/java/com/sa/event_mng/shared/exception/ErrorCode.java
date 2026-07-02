@@ -16,7 +16,7 @@ public enum ErrorCode {
     USER_NOT_EXISTED(1003, "User not existed", HttpStatus.NOT_FOUND),
 
     USERNAME_INVALID(1004, "Username muscharacters in length", HttpStatus.BAD_REQUEST),
-    PASSWORD_INVALID(1005, "Password must be between cvf dsfv  6 and 50 characters in length", HttpStatus.BAD_REQUEST),
+    PASSWORD_INVALID(1005, "Password mucv st be between cvf dsfv  6 and 50 characters in length", HttpStatus.BAD_REQUEST),
 
     USERNAME_REQUIRED(1006, "Username is required", HttpStatus.BAD_REQUEST),
     USERNAME_EXISTED(1021, "Username already existed", HttpStatus.BAD_REQUEST),
