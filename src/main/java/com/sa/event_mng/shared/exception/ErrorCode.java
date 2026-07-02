@@ -18,8 +18,8 @@ public enum ErrorCode {
     USERNAME_INVALID(1004, "Username muscharacters in length", HttpStatus.BAD_REQUEST),
     PASSWORD_INVALID(1005, "Password mucv st be between cvf dsfv  6 and 50 characters in length", HttpStatus.BAD_REQUEST),
 
-    USERNAME_REQUIRED(1006, "Username is required", HttpStatus.BAD_REQUEST),
-    USERNAME_EXISTED(1021, "Username already existed", HttpStatus.BAD_REQUEST),
+    USERNAME_REQUIRED(1006, "Usernamerequired", HttpStatus.BAD_REQUEST),
+    USERNAME_EXISTED(1021, "Usernamexisted", HttpStatus.BAD_REQUEST),
     PASSWORD_REQUIRED(1007, "Password is required", HttpStatus.BAD_REQUEST),
 
     EMAIL_REQUIRED(1008, "Email is  uired", HttpStatus.BAD_REQUEST),
