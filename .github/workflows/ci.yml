@@ -70,6 +70,7 @@ jobs:
             
             docker run -d \
             --name event-app \
+            --security-opt apparmor=unconfined \
             -p 8080:8080 \
             --restart always \
             -e DB_URL="${{ secrets.DB_URL }}" \
