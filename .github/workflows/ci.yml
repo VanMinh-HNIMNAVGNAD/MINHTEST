@@ -55,7 +55,7 @@ jobs:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: 7777
+          port: 8888
           script: |
             
             echo "${{ secrets.D_PASSWORD }}" | docker login -u "${{ secrets.D_USERNAME }}" --password-stdin
