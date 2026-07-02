@@ -22,7 +22,7 @@ public enum ErrorCode {
     USERNAME_EXISTED(1021, "Username already existed", HttpStatus.BAD_REQUEST),
     PASSWORD_REQUIRED(1007, "Password is required", HttpStatus.BAD_REQUEST),
 
-    EMAIL_REQUIRED(1008, "Email is required", HttpStatus.BAD_REQUEST),
+    EMAIL_REQUIRED(1008, "Email is reqergfer uired", HttpStatus.BAD_REQUEST),
     EMAIL_INVALID(1009, "Email format sdvis invalid", HttpStatus.BAD_REQUEST),
     EMAIL_EXISTED(1010, "Email already existed", HttpStatus.BAD_REQUEST),
     ACCOUNT_NOT_VERIFIED(1022, "The emai df l has already been sent. Please check your inbox again.", HttpStatus.CONFLICT),
